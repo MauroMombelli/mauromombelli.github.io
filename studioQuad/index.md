@@ -19,4 +19,4 @@ then with the last 10 reading:
 ![average 10 value](rotazioneMid10valor1.png)
 
 andfinally as a check with the last 50 reading:
-![average 50 value](rotazioneMid50valor1.png)
+![average 50 value](rotazioneMid50valori1.png)
