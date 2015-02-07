@@ -10,4 +10,4 @@ One day i hope to implement something less static with at least a comment sectio
 more update will hopefully come.
 
 Page List
-[Stabilization Analisis](studioQuad/index.md)
+[Stabilization Analisis](studioQuad)
