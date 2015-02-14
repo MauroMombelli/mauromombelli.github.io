@@ -10,6 +10,22 @@
     margin-bottom: 5%;
 }
 
+#content{
+    width:70%;
+    float:left;
+}
+
+#fixedSideMenu{
+    width: 29%;
+    padding-left: 1%;
+    position: fixed;
+    right: 0;
+}
+
+#upperBanner{
+    width:100%
+}
+
 .center {        
     display:block;
     margin-left:auto;
