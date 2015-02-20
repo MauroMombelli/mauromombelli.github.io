@@ -1,13 +1,15 @@
+<ul>
 {% for post in site.posts %}
 
-<div>
+<li>
     {% if post.thumbnail %}
-	<img src="{{post.thumbnail}}" width="42" height="42" align="top">
+	<img src="{{post.thumbnail}}" width="42" height="42" align="left">
     {% else %}
-	<img src="/images/Right_arrow.svg" alt="a right arrow. Thanks wikipedia for the image." width="42" height="42" align="top" />
+	<img src="/images/Right_arrow.svg" alt="a right arrow. Thanks wikipedia for the image." width="42" height="42" align="left" />
     {% endif %}
     <a href="{{ post.url }}">{{ post.title }}</a> <br/>
     {{ post.date | date: "%F" }}
-</div>
+</li>
 
 {% endfor %}
+</ul>
