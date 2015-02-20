@@ -18,10 +18,10 @@ body{
 }
 
 #fixedSideMenu{
-    width: 29%;
+    width: 20%;
     padding-left: 1%;
     position: fixed;
-    right: 0;
+    right: 10%;
     
     border-left-style: dotted;
     border-left-width: 1px;
