@@ -1,4 +1,12 @@
 {% for post in site.posts %}
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%F" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+    <div>
+    {% if post.thumbnail %}
+	<img src="post.thumbnail" width="42" height="42" align="top">
+    {% else %}
+	<img src="images/Right_arrow.svg" alt="a right arrow. Thanks wikipedia for the image." width="42" height="42" align="top" />
+    {% endif %}
+        
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><strong>{{ post.date | date: "%F" }}</strong></p>			
+    </div>
 {% endfor %}
