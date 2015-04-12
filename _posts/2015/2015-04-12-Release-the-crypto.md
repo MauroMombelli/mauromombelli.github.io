@@ -55,6 +55,7 @@ but please note that the buyer-seller protocol is easy and does not require trus
 the worse is that your wallet will be unusable until you sync it (we hope from a secure source!)
 
 
+
 ## what the seller need?
 
 a little machine connected to internet, and the only setup is the receiving address.
@@ -62,6 +63,8 @@ a little numpad will be used to input the value.
 
 a normal PC may be used, if communication technology with walled are fine.
 another secured PC to store the wallet. or whatever you preferr
+
+
 
 ## what the buyer need?
 
