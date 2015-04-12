@@ -37,3 +37,11 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
+
+ul {
+	list-style: square inside none;
+}
+
+h2 {
+	font-size: 23px;
+}
