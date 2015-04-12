@@ -5,7 +5,7 @@ excerpt: We need to create a easy way to make and accept fast and small payment 
 thumbnail: /images/2015/doge.png
 ---
 
-# {{title}}
+# {{page.title}}
 
 {{excerpt}}
 
