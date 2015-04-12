@@ -13,19 +13,18 @@ body{
     min-height:80%;
 }
 
-#content{
-    width:70%;
+#fixedSideMenu{
+	width: 20%;
+	padding-left: 1%;
+	position: right;
+
+	border-left-style: dotted;
+	border-left-width: 1px;
+	border-left-color: lightgrey;
 }
 
-#fixedSideMenu{
-    width: 20%;
-    padding-left: 1%;
-    position: fixed;
-    right: 10%;
-    
-    border-left-style: dotted;
-    border-left-width: 1px;
-    border-left-color: lightgrey;
+#content{
+    width:70%;
 }
 
 #upperBanner{
