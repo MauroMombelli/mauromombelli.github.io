@@ -1,6 +1,6 @@
 ---
 layout: default
-title: IDEA: to make crytovalues a real thing. 
+title: IDEA to make crytovalues a real thing. 
 excerpt: we need to create a easy way to make and accept fast and small payment in first person
 thumbnail: doge.png
 ---
