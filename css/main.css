@@ -51,3 +51,11 @@ h1 {
 h2 {
 	font-size: 23px;
 }
+
+.postListLink{
+	font-size: 10px;
+}
+
+.postListDate{
+	font-size: 7px;
+}
