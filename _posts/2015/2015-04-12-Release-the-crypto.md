@@ -7,7 +7,7 @@ thumbnail: /images/2015/doge.png
 
 # {{page.title}}
 
-{{excerpt}}
+{{page.excerpt}}
 
 
 we need to create a easy way to make and accept payment.
