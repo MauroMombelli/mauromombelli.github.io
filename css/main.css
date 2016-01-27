@@ -29,7 +29,7 @@ body{
 	display: none;
 }
 
-#fixedSideMenuButton img{
+#fixedSideMenuButton  + label img{
 	width: 10%;
 }
 
