@@ -29,7 +29,7 @@ body{
 	display: none;
 }
 
-#fixedSideMenuButton:checked + label > img ~ #fixedSideMenuContent{
+#fixedSideMenuButton:checked + label ~ #fixedSideMenuContent{
 	display:block;
 }
 
