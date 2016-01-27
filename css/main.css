@@ -29,6 +29,11 @@ body{
 	display: none;
 }
 
+#fixedSideMenuButton img{
+	width: 10%;
+}
+
+
 #fixedSideMenuButton:checked + label ~ #fixedSideMenuContent{
 	display:block;
 }
