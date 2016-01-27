@@ -16,12 +16,25 @@ body{
 #fixedSideMenu{
 	width: 20%;
 	padding-left: 1%;
-	position: absolute;
+	position: fixed;
 	right:0;
 
 	border-left-style: dotted;
 	border-left-width: 1px;
 	border-left-color: lightgrey;
+	
+}
+
+#fixedSideMenuButton{
+	display: none;
+}
+
+#fixedSideMenuButton:checked + label > img ~ #fixedSideMenuContent{
+	display:block;
+}
+
+#fixedSideMenuContent{
+	display:none;
 }
 
 #content{
