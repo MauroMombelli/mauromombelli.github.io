@@ -29,6 +29,8 @@ body{
 
 #fixedSideMenuButton{
 	display: none;
+	clear: both;
+    float: right;
 }
 
 #fixedSideMenuButton  + label img{
@@ -53,7 +55,7 @@ body{
 }
 
 #btnMenu{
-	display:block;
+	float:right;
 }
 
 .center {        
