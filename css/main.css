@@ -41,6 +41,8 @@ body{
 
 #fixedSideMenuContent{
 	position:absolute;
+	right:0;
+	display:table;
 	background-color: white;
 	border: 1px gray solid;
 	list-style: none;
