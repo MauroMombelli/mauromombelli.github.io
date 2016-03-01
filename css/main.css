@@ -13,19 +13,37 @@ body{
     min-height:80%;
 }
 
-#content{
-    width:70%;
+#fixedSideMenu{
+	width: 20%;
+	padding-left: 1%;
+	position: fixed;
+	right:0;
+
+	border-left-style: dotted;
+	border-left-width: 1px;
+	border-left-color: lightgrey;
+	
 }
 
-#fixedSideMenu{
-    width: 20%;
-    padding-left: 1%;
-    position: fixed;
-    right: 10%;
-    
-    border-left-style: dotted;
-    border-left-width: 1px;
-    border-left-color: lightgrey;
+#fixedSideMenuButton{
+	display: none;
+}
+
+#fixedSideMenuButton  + label img{
+	width: 10%;
+}
+
+
+#fixedSideMenuButton:checked + label ~ #fixedSideMenuContent{
+	display:block;
+}
+
+#fixedSideMenuContent{
+	display:none;
+}
+
+#content{
+    width:70%;
 }
 
 #upperBanner{
@@ -36,4 +54,26 @@ body{
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+
+ul {
+	list-style: square inside none;
+}
+
+h1 {
+	font-size: 30px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+.postListLink{
+	font-size: 13px;
+}
+
+.postListDate{
+	font-size: 10px;
 }

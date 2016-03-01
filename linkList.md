@@ -1,8 +1,9 @@
-Tecnology info
+Tecnology info:
 
 http://www.allthingsdistributed.com/
 http://www.righto.com/
 http://www.stevesouders.com/
+http://www.bolthole.com/
 
 random:
 http://commandcenter.blogspot.it/2012/04/byte-order-fallacy.html
