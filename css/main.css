@@ -30,8 +30,13 @@ body{
 	display:block;
 }
 
-#hiddenMenu{
+#hiddenMenuContainer{
 	float: right;
+}
+
+#hiddenMenuContainer{
+	clear: both;
+	display:none;
 }
 
 #fixedSideMenuContent{
