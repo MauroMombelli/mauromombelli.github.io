@@ -18,13 +18,14 @@ body{
 	width: 20%;
 	padding-left: 1%;
 	position: fixed;
-	right:0;
+	
 
 	border-left-style: dotted;
 	border-left-width: 1px;
 	border-left-color: lightgrey;
 */
-	float:right;
+	position:absolute;
+	right:0;
 }
 
 #fixedSideMenuButton{
@@ -43,7 +44,9 @@ body{
 #fixedSideMenuContent{
 	display:none;
 	clear: both;
-    float: right;
+	float: right;
+	background-color: white;
+	border: 1px gray solid;
 }
 
 #content{
