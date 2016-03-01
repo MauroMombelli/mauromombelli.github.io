@@ -8,7 +8,10 @@
 		<img src="/images/icon_menu-circle_alt2.svg" id="btnMenu" />
 		
 		<div id='hiddenMenu'>
-			{% include postList.html %}
+			<div style='display:table'>
+				{% include postList.html %}
+			</div>
+			<div id='hiddenMenu'>
 		</div>
 	</label>
 </div>
