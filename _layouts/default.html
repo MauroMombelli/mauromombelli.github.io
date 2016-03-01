@@ -1,7 +1,14 @@
 {% include header.html %}
 
-<div id='fixedSideMenu'>
-    {% include postList.html %}
+<input type="checkbox" id="showMenuButton" />
+
+<div id='hiddenMenu'>
+	<label class="btn" for="showMenuButton">
+		
+		{% include postList.html %}
+		
+		<img src="/images/icon_menu-circle_alt2.svg" id="btnMenu" />
+	</label>
 </div>
 
 <div id='content'>

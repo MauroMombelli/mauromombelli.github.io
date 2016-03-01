@@ -14,43 +14,36 @@ body{
 }
 
 #fixedSideMenu{
-/*
-	width: 20%;
-	padding-left: 1%;
-	position: fixed;
-	
-
-	border-left-style: dotted;
-	border-left-width: 1px;
-	border-left-color: lightgrey;
-*/
-	position:absolute;
-	right:0;
+	float:right;
 }
 
-#fixedSideMenuButton{
+#showMenuButton{
 	display: none;
 }
 
-#fixedSideMenuButton  + label img{
+#showMenuButton  + label img{
 	width: 10%;
 }
 
 
-#fixedSideMenuButton:checked + label ~ #fixedSideMenuContent{
+#showMenuButton:checked + label ul{
 	display:block;
 }
 
+#hiddenMenu{
+	float: right;
+}
+
 #fixedSideMenuContent{
-	display:none;
 	clear: both;
 	float: right;
 	background-color: white;
 	border: 1px gray solid;
+	list-style: none;
 }
 
 #content{
-    width:70%;
+    /*width:70%;*/
 }
 
 #upperBanner{
