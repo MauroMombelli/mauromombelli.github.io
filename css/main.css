@@ -21,10 +21,6 @@ body{
 	display: none;
 }
 
-#showMenuButton  + label img{
-	width: 10%;
-}
-
 
 #showMenuButton:checked + label #hiddenMenu{
 	display:block;
@@ -49,7 +45,6 @@ body{
 }
 
 #content{
-    /*width:70%;*/
 }
 
 #upperBanner{
