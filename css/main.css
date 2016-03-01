@@ -75,6 +75,10 @@ h2 {
 	font-size: 23px;
 }
 
+img{
+	max-width: 100%;
+}
+
 .postListLink{
 	font-size: 13px;
 }
