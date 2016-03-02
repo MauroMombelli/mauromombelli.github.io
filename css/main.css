@@ -1,14 +1,14 @@
 body{
     margin:1%;
-	height:100%;
+	min-height:100%;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	font-family: 'Open Sans';
 }
 
 #paginone{
-    width: 80%;
-    left: 10%;
+    width: 90%;
+    left: 5%;
     position: relative;
     -webkit-box-shadow: 0px 0px 30px 3px rgba(49, 50, 50, 0.8);
     -moz-box-shadow:    0px 0px 30px 3px rgba(49, 50, 50, 0.8);
@@ -102,49 +102,4 @@ img{
 
 .postListDate{
 	font-size: 80%;
-}
-
-@media only screen and (min-resolution: 100dpi)
-{
-	font-size:21px;
-	#paginone{
-		width: 90%;
-		left: 5%;
-	}
-}
-	
-@media only screen and (min-resolution: 130dpi)
-{
-	font-size:24px;
-	#paginone{
-		width: 90%;
-		left: 5%;
-	}
-}
-
-@media only screen and (min-resolution: 180dpi)
-{
-	font-size:32px;
-	#paginone{
-		width: 90%;
-		left: 5%;
-	}
-}
-
-@media only screen and (min-resolution: 230dpi)
-{
-	font-size:40px;
-	#paginone{
-		width: 90%;
-		left: 5%;
-	}
-}
-
-@media screen and (min-resolution: 280dpi)
-{
-	font-size:48px;
-	#paginone{
-		width: 90%;
-		left: 5%;
-	}
 }
