@@ -1,5 +1,6 @@
 body{
     margin:1%;
+	height:100%
 }
 
 #paginone{
@@ -42,6 +43,13 @@ body{
 	background-color: white;
 	border: 1px gray solid;
 	list-style: none;
+	margin-right: 10px;
+    margin-top: 5px;
+	border-radius: 5%;
+	
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+    box-shadow:         0px 0px 10px 3px rgba(49, 50, 50, 0.5);
 }
 
 #content{
