@@ -107,24 +107,44 @@ img{
 @media only screen and (min-resolution: 100dpi)
 {
 	font-size:21px;
+	#paginone{
+		width: 90%;
+		left: 5%;
+	}
 }
 	
 @media only screen and (min-resolution: 130dpi)
 {
 	font-size:24px;
+	#paginone{
+		width: 90%;
+		left: 5%;
+	}
 }
 
 @media only screen and (min-resolution: 180dpi)
 {
 	font-size:32px;
+	#paginone{
+		width: 90%;
+		left: 5%;
+	}
 }
 
 @media only screen and (min-resolution: 230dpi)
 {
 	font-size:40px;
+	#paginone{
+		width: 90%;
+		left: 5%;
+	}
 }
 
 @media screen and (min-resolution: 280dpi)
 {
 	font-size:48px;
+	#paginone{
+		width: 90%;
+		left: 5%;
+	}
 }
