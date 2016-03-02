@@ -97,9 +97,44 @@ img{
 }
 
 .postListLink{
-	font-size: 20px;
+	font-size: 100%;
 }
 
 .postListDate{
-	font-size: 16px;
+	font-size: 80%;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+only screen and (-o-min-device-pixel-ratio: 13/10),
+only screen and (min-resolution: 120dpi)
+{
+	font-size:21px;
+}
+	
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 15/10),
+only screen and (min-resolution: 150dpi)
+{
+	font-size:24px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 20/10),
+only screen and (min-resolution: 200dpi)
+{
+	font-size:32px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5),
+only screen and (-o-min-device-pixel-ratio: 25/10),
+only screen and (min-resolution: 250dpi)
+{
+	font-size:40px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 30/10),
+only screen and (min-resolution: 300dpi)
+{
+	font-size:48px;
 }
