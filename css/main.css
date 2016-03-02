@@ -89,7 +89,18 @@ h2 {
 }
 
 img{
+	/* don't overflow the page */
 	max-width: 100%;
+	
+	/* and try to center */
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+iframe{
+	/* center all iframe (i'm looking at you, youTube) */
+	display: block; margin: 0 auto;
 }
 
 .postLinkRow{
