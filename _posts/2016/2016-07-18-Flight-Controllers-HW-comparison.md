@@ -4,7 +4,7 @@ title: Flight controller hardware comparison
 excerpt: this is a little comparison of Flight Controller for multicopter as of 2016-07
 ---
 
-**{{page.title}}** 
+# {{page.title}}
 
 {{excerpt}} 
 
