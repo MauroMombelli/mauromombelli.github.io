@@ -1,5 +1,7 @@
 Flight controller coparison
 
+| FC | MCU | IMU | BUS |
+|----|-----|-----|-----|
 | AfroFlight Naze32 Rev5 | no FPU (stm32f1) | only 6DOF (MPU6050) | i2c sensors bus |
 | Naze32 Rev5 Full | no FPU (stm32f1) | 9DOF + baro (MPU6050) | i2c sensor bus |
 | Naze32 Rev5 Full | no FPU (stm32f1) | 9DOF + baro (MPU6500) | i2c sensor bus |
