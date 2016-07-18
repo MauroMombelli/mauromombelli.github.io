@@ -4,11 +4,9 @@ title: Flight controller hardware comparison
 excerpt: this is a little comparison of Flight Controller for multicopter as of 2016-07
 ---
 
-{{page.title}}
+**{{page.title}}** 
 
-{{excerpt}}
-
-*Flight controller hardware comparison*
+{{excerpt}} 
 
 This comparison whant to clear up the main differencies on the flight controller. Those are POTENIAL capability of the flight controller, but there are some thing to keep in mind:
 - MCU/FPU speed is desired to get more CPU time to let the software do other stuff. if you just want to fly even an atmega with some good quality code is fine
