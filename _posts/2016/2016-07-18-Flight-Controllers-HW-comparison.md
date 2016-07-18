@@ -1,3 +1,13 @@
+---
+layout: default
+title: Flight controller hardware comparison
+excerpt: this is a little comparison of Flight Controller for multicopter as of 2016-07
+---
+
+{{page.title}}
+
+{{excerpt}}
+
 *Flight controller hardware comparison*
 
 This comparison whant to clear up the main differencies on the flight controller. Those are POTENIAL capability of the flight controller, but there are some thing to keep in mind:
