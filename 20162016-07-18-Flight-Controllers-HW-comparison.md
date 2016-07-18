@@ -1,4 +1,14 @@
-Flight controller coparison
+*Flight controller hardware comparison*
+
+This comparison whant to clear up the main differencies on the flight controller. Those are POTENIAL capability of the flight controller, but there are some thing to keep in mind:
+- MCU/FPU speed is desired to get more CPU time to let the software do other stuff. if you just want to fly even an atmega with some good quality code is fine
+- double support is needed only if you want GPS navigation
+- how the hardware is connected. A clear example of this is shared HW on multiple pin, or the lack of connection to all MPU pin. This is not taken into consideration
+- Sensor's update time VS ouptut bit
+- Software capability (aka: you may have the best HW but if the sowtare doesn't manage to use it..)
+- FC are relatively cheap and extremly hard to break even on hard crash
+
+So my opinion is to buy the best HW with active development and lot of user. Bonus point if it is supported by multiple project and its openharware, as this helps a lot the development of alternative software and hardware.
 
 | FC | MCU | IMU | BUS* |
 |----|-----|-----|-----|
