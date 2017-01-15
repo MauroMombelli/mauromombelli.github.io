@@ -1,11 +1,10 @@
 body{
-	margin:1%;
-	width:98%;
 	min-height:98%;
 	line-height:1.6;
 	font-size:18px;
 	color:#444;
-	padding:0 10px;
+	padding:0;
+	margin:0;
 	font-family: 'Arimo', sans-serif;
 }
 
@@ -19,14 +18,17 @@ small{
 }
 
 #paginone{
-    width: 90%;
-    margin-left: 3%;
+	width: 90%;
+	margin-top: 4%;
+	margin-left: 3%;
 	padding: 2%;
-    position: relative;
-    -webkit-box-shadow: 0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    -moz-box-shadow:    0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    box-shadow:         0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    min-height:80%;
+	position: relative;
+	
+	-webkit-box-shadow: 0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	-moz-box-shadow:    0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	box-shadow:         0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	
+	min-height:80%;
 }
 
 #fixedSideMenu{
@@ -59,13 +61,13 @@ small{
 	border: 1px gray solid;
 	list-style: none;
 	margin-right: 10px;
-    margin-top: 5px;
+	margin-top: 5px;
 	border-radius: 5%;
 	
 	-webkit-box-shadow: 0px 0px 10px 3px rgba(49, 50, 50, 0.5);
-    -moz-box-shadow:    0px 0px 10px 3px rgba(49, 50, 50, 0.5);
-    box-shadow:         0px 0px 10px 3px rgba(49, 50, 50, 0.5);
-	
+	-moz-box-shadow:    0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+	box-shadow:         0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+
 	padding:1%;
 }
 
@@ -73,7 +75,7 @@ small{
 }
 
 #upperBanner{
-    width:100%
+	width:100%
 }
 
 #btnMenu{
@@ -81,9 +83,9 @@ small{
 }
 
 .center {        
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 ul {
@@ -106,8 +108,8 @@ img{
 	
 	/* and try to center */
 	display:block;
-    margin-left:auto;
-    margin-right:auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 iframe{
