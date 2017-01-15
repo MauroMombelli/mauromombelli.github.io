@@ -30,11 +30,11 @@ For sure the configuration could be made more generic, something that i plan to 
 
 Lets take a look at its interface!
 
-```c
+{% highlight c %}
 void USART1_Init(const uint32_t speed);
 uint8_t USART1_Read(uint8_t * const ris, const uint8_t len);
 void USART1_Write(const void * const mess, const uint8_t len);
-```
+{% endhighlight %}
 
 easy as it come;
 first the library need to be initialized, then byte array can be read or write to the serial.
