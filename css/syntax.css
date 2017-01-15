@@ -1,3 +1,6 @@
+pre{
+  white-space: pre-wrap;
+}
 .highlight  { 
   background: #ffffff; 
   font-family: monospace;
