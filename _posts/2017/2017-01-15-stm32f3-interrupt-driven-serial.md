@@ -25,9 +25,9 @@ This help to move bugfix to all project that need it, but at the same time preve
 ## IMPLEMENTATION
 
 In this specific case, only the baudrate is configurable, and the rest of the parameter are fixed at 8n1 with no flow control, as this is most of the serial configuration you will find out there; the pin are hardcoded for stm32f303.  
-
+  
 For sure the configuration could be made more generic, something that i plan to do when and if i will have to use this code on other version of the chip, like the stm32f301.  
-
+  
 Lets take a look at its interface!  
 
 {% highlight c %}
@@ -38,10 +38,10 @@ void USART1_Write(const void * const mess, const uint8_t len);
 
 easy as it come;  
 first the library need to be initialized, then byte array can be read or write to the serial.  
-
+  
 USART1_Read return the number of byte read, that can be 0; to prevent any allocation library-side, you have to pass to the funcion an initialized array and its len.  
 if the returned number of byte read is the same size of your buffer, chances are there is still data to read, so take care!  
-
+  
 So we have two special case for USART1_Read:  
 
 - no data available: return 0
@@ -49,7 +49,7 @@ So we have two special case for USART1_Read:
 
 USART1_Write write the current message in the buffer. As it is a circular buffer, if you write too fast you will override the older messages.  
 There is currently no way to know how much space is left on the buffer; it is easy to implement so its left as exercise to the readed (unless I will need it later)  
-
+  
 So we have two special case for USART1_Write:  
 
 - no way to check buffer state
