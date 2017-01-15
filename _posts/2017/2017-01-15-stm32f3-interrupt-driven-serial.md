@@ -43,12 +43,12 @@ USART1_Read return the number of byte read, that can be 0; to prevent any alloca
 if the returned number of byte read is the same size of your buffer, chances are there is still data to read, so take care!
 
 So we have two special case for USART1_Read:
-- no data available: return 0
-- more data available: no specific return value, if the buffer is filled, you need to call the function again
+* no data available: return 0
+* more data available: no specific return value, if the buffer is filled, you need to call the function again
 
 USART1_Write write the current message in the buffer. As it is a circular buffer, if you write too fast you will override the older messages.
 There is currently no way to know how much space is left on the buffer; it is easy to implement so its left as exercise to the readed (unless I will need it later)
 
 So we have two special case for USART1_Write:
-- no way to check buffer state
-- new data override oldest data if you fill the buffer faster than the serial comminication can manage
+* no way to check buffer state
+* new data override oldest data if you fill the buffer faster than the serial comminication can manage
