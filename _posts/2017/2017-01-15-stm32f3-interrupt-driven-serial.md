@@ -8,15 +8,15 @@ excerpt: A quick and easy implementation of interrupt driven USART for your proj
 
 {{excerpt}}
 
-[FULL PROJECT WITH CODE](https://github.com/MauroMombelli/stm32f3-serial)
+# [FULL PROJECT WITH CODE](https://github.com/MauroMombelli/stm32f3-serial)
 
-## WHY
+# WHY
 
 This implementation is completly non-blocking, for read and write; data is placed on circular buffer where the interrupt will take care of.
 This limit every message to be at max big as the buffer (256 byte in this case, to take advantage of natural byte overflow).
 At the moment if the read has some bad quirkness if the index of readed data overflow over the current index of message to read, causing the loss of 256 char; i may fix this in the future.
 
-## HOW
+# HOW
 
 When i develop code for my project i like to create little modular and clean libraies that try to keep everything encapsulated, with minimal setup from the user and no dynamic memori allocation.
 The idea is that i can create a git submodule in my main project that will care of all the subproject.
