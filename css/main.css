@@ -71,6 +71,7 @@ small{
 }
 
 #content{
+	min-height: 80%;
 }
 
 #upperBanner{
