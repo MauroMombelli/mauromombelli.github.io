@@ -82,6 +82,11 @@ small{
 	float:right;
 }
 
+#tail{
+	position:absolute;
+	bottom:0;
+}
+
 .center {        
 	display:block;
 	margin-left:auto;
