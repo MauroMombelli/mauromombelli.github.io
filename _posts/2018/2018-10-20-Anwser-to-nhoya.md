@@ -17,6 +17,7 @@ I agree and disagree.
 I belive the real issue started with the Linux Foundation basically killing the user opinion by granting only one vote for the community.  
 The new CoC is at least controversial, but you really believe the CoC from Microsoft is better? Just in March varius article emerged about the ambient at Microsoft is toxic and arrassing for woman, so essentially what is the lesser evil? A company that even now is getting sued from the antitrust for illegal market practise?  
 Even with the new CoC, it is pretty clear who is the lesser evil.  
+Edit: just now I read the CoC is open to PR, and one has already been created collecting the feedback from varius maintainer: https://www.phoronix.com/scan.php?page=news_item&px=Linux-CoC-Greg-KH-Revised
   
 # “Microsoft is [not] spying on us!”
   
