@@ -3,7 +3,7 @@
 Dear Francesco,
 I read your rant about moving on Windows, and what I want to ticke some of the point you make.
 
-# “Linux distributions are malware-proof”
+# “Linux distributions are [not] malware-proof”
 
 This is an old discussion.
 Linux was never malware-proof, but thanks to his way to distribute software trought a centralized and verified systesm, is much more secure than downloading exe from random websites.
@@ -18,7 +18,7 @@ I belive the real issue started with the Linux Foundation basically killing the 
 The new CoC is at least controversial, but you really believe the CoC from Microsoft is better? Just in March varius article emerged about the ambient at Microsoft is toxic and arrassing for woman, so essentially what is the lesser evil? A company that even now is getting sued from the antitrust for illegal market practise?
 Even with the new CoC, it is pretty clear who is the lesser evil.
 
-# “Microsoft is spying on us!”
+# “Microsoft is [not] spying on us!”
 
 I find really funny how you has people to point out for resources but i clear how you>
 - dont give a way to comment/PR on the article
@@ -48,7 +48,7 @@ But that is also a strenght, as if your current distro does not satisfy you, you
 Stick to main distribution, and remeber the problem is not to be violated, but how you respond to such violation.
 And yet again the packet manager system in Linux distro make much easier to be sure your whole system is updated; and there is no doubt the windows update system is feared by most people, I'm also wondering wht is windows doing during its update when I can literally install a full Ubuntu in the same time.
 
-# “Everyone can read the source code of Linux so it’s more secure”
+# “Everyone can read the source code of Linux so it’s more secure” is not true
 
 You are confusing MORE with "perfect".
 You are right that being open does NOT mean it is safe, but it has POTENTIAL to be more safe.
@@ -65,18 +65,18 @@ not sure what it is, pass
 
 ## Controlled Folder access
 
-oh, just like the SElinux or AppArmor? Cute.
-Andoroid pushed the concept even furter with periferical access and making it by default.
-Snappy and Flatcpack are pushing to make iy by default even on desktop.
+oh, just like the SElinux or AppArmor had for.. decade? Cute.
+Android pushed the concept even furter with periferical access and making it by default.
+Snappy and Flatcpack are pushing to make it by default even on desktop.
 
 ## Secure Boot
 
-Very good, unfortunately not really useful unless with a fully encrypted disk, and this is payinful in Windows.
-I personally use BitLocker to encrypt folders, and there is no way for simple stuff like automatically mount the encrypted partition, 
-lets not talk about mount and descrypt at login.
+Very good, unfortunately not really useful unless with a fully encrypted disk, and this is painful in Windows.
+I personally use BitLocker to encrypt folders, and there is no way for simple stuff like automatically mount the encrypted partition, lets not talk about mount and decrypt at login.
 Want to use a private key? you have to generate it yourself with 3rd part tool.
 Want to use an external HW wallet? your mileage will vary and probably need a 3rd party tool.
 All those security feature feels like second class citizen in Win10, while on most distro is easy as checking a flag on the installation setup.
+
 
 # Conclusion
 
