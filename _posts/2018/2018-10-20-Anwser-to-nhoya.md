@@ -21,10 +21,6 @@ Edit: just now I read the CoC is open to PR, and one has already been created co
   
 # “Microsoft is [not] spying on us!”
   
-I find really funny how you has people to point out for resources but i clear how you:  
-- dont give a way to comment/PR on the article  
-- didnt make a basic search by yourself  
-  
 Since you ask for resource, especially here in EU we habe TONS of lawsuit even from different governament against Microsoft.
 That is only 3 articles taken from the first page of a goolge research for "microsoft illegal data collection", and are all article have less than 3 years.  
 So yes, “Microsoft is spying on us!”, and there is no doubt.  
