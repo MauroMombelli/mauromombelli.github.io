@@ -44,7 +44,7 @@ the configuration server is on port 1235 (same limitation of one client at time 
  - `u` : enter upload mode (serial in 115200 8E1 mode, set BOOT0, reset, relese BOOT0)
  - `e` : exit upload mode (set the serial back to user baudrate 8N1 mode)
   
-##How to connect
+## How to connect
   
 Easy peasy:  
  - the serial of the ESP to the serial of the STM
@@ -54,7 +54,7 @@ Easy peasy:
 As the STM work at 3.3v no special care is required; I assume you already set up the proper pull-up pull-down to make the ESP work properly.  
 I am using a bluepill, it come with a 5v to 3.3v regulator, and has enough current for both chip. Your mileage may vary.  
   
-##How to upload
+## How to upload
   
 ok, NOW come the hard part.  
 we want to use stm32flash, an opensource tool, to upload.  

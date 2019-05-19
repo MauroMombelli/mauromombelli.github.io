@@ -132,3 +132,7 @@ iframe{
 .postListDate{
 	font-size: 80%;
 }
+
+code{
+    background:lightgray;
+}
