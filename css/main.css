@@ -1,59 +1,95 @@
 body{
-    margin:1%;
+	height:100%;
+	line-height:1.6;
+	font-size:18px;
+	color:#444;
+	padding:0;
+	margin:0;
+	font-family: 'Arimo', sans-serif;
+}
+
+h1,h2,h3{
+	line-height:1.2;
+	margin-top:2%;
+}
+
+small{
+	font-size:10px;
 }
 
 #paginone{
-    width: 80%;
-    left: 10%;
-    position: relative;
-    -webkit-box-shadow: 0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    -moz-box-shadow:    0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    box-shadow:         0px 0px 30px 3px rgba(49, 50, 50, 0.8);
-    padding: 2%;
-    min-height:80%;
+	width: 90%;
+	margin: 3%;
+	padding: 2%;
+	position: relative;
+	
+	-webkit-box-shadow: 0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	-moz-box-shadow:    0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	box-shadow:         0px 0px 30px 3px rgba(49, 50, 50, 0.8);
+	
+	min-height:80%;
 }
 
 #fixedSideMenu{
-	width: 20%;
-	padding-left: 1%;
-	position: fixed;
-	right:0;
-
-	border-left-style: dotted;
-	border-left-width: 1px;
-	border-left-color: lightgrey;
-	
+	float:right;
 }
 
-#fixedSideMenuButton{
+#showMenuButton{
 	display: none;
 }
 
-#fixedSideMenuButton  + label img{
-	width: 10%;
-}
 
-
-#fixedSideMenuButton:checked + label ~ #fixedSideMenuContent{
+#showMenuButton:checked + label #hiddenMenu{
 	display:block;
 }
 
-#fixedSideMenuContent{
+#hiddenMenuContainer{
+	float: right;
+}
+
+#hiddenMenu{
+	clear: both;
 	display:none;
 }
 
+#fixedSideMenuContent{
+	position:absolute;
+	right:0;
+	display:table;
+	background-color: white;
+	border: 1px gray solid;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 5px;
+	border-radius: 5%;
+	
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+	box-shadow:         0px 0px 10px 3px rgba(49, 50, 50, 0.5);
+
+	padding:1%;
+}
+
 #content{
-    width:70%;
 }
 
 #upperBanner{
-    width:100%
+	width:100%
+}
+
+#btnMenu{
+	float:right;
+}
+
+#tail{
+	position:absolute;
+	bottom:0;
 }
 
 .center {        
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 ul {
@@ -70,10 +106,29 @@ h2 {
 	font-size: 23px;
 }
 
+img{
+	/* don't overflow the page */
+	max-width: 100%;
+	
+	/* and try to center */
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+iframe{
+	/* center all iframe (i'm looking at you, youTube) */
+	display: block; margin: 0 auto;
+}
+
+.postLinkRow{
+	min-height:42px;
+}
+
 .postListLink{
-	font-size: 13px;
+	font-size: 100%;
 }
 
 .postListDate{
-	font-size: 10px;
+	font-size: 80%;
 }
